@@ -1,0 +1,48 @@
+package ge.ibsu.demo.dto;
+
+import ge.ibsu.demo.entities.Address;
+import ge.ibsu.demo.entities.Customer;
+
+import java.util.Date;
+
+public class AddCustomerDTO {
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String address;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+
+
+}
